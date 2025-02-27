@@ -18,5 +18,4 @@ jobs:
         aws-region: us-east-2
     
     - name: Sync to S3
-      run: aws s3 sync . s3://genesissoebagyo-lab3-bucket --exclude 
-".git*"
+      run: aws s3 sync . s3://genesissoebagyo-lab3-bucket --exclude ".git*"
